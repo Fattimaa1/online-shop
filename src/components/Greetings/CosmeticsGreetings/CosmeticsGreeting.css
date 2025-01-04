@@ -1,0 +1,22 @@
+.row.cosmetics-greetings-row {
+   background-color:#E5CDE7 ;
+   padding: 9rem 3rem 2rem 3rem ;
+}
+
+.cosmetics-buttons-wrapper{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   
+}
+.col.cosmetics-second-col{
+   display: flex;
+   flex-direction: column;
+   gap: 2.5rem;
+}
+
+
+.col.cosmetics-second-col p {
+   padding: 1rem;
+}
+ 
