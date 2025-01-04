@@ -1,0 +1,28 @@
+.base-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.button--primary {
+    background-color:#fff;
+
+    clip-path: polygon(0 0, 100% 0%, 83% 99%, 0 100%);
+
+}
+
+.button--secondary {
+    background-color:#A082DA;
+    clip-path: polygon(18% 0, 100% 0%, 100% 100%, 0 100%);
+
+    
+}
+
+.button--disabled {
+    cursor: not-allowed;
+    background-color: gray;
+}

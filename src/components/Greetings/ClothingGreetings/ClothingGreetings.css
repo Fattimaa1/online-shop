@@ -1,0 +1,21 @@
+.clothing-greetings-row {
+    padding: 5rem 3rem 0rem 3rem ;
+    background: rgb(235,245,235);
+    background: linear-gradient(171deg, rgba(235,245,235,1) 7%, rgba(247,161,180,1) 42%, rgba(204,74,96,1) 100%);
+
+}
+.clothing-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+}
+
+.clothing-text h1{
+    font-size: 1.5rem;
+}
+.clothing-text p{
+
+    padding: 0 0.5rem;
+}

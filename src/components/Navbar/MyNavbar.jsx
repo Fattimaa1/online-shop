@@ -9,7 +9,7 @@ import "./MyNavbar.css";
 const MyNavbar = () => {
   return (
     <Navbar expand="lg" fixed="top" className="bg-transparent">
-      <Container fluid>
+      <Container fluid className="navbar-main-container">
         <Navbar.Brand href="/">
           <img src={VelvetRose} alt="logo" width="50px" />
           <span className="navbar-brand-name">Velvet Rose</span>
